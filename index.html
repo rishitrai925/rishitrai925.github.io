@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me - John Doe</title>
+    <meta name="description" content="Personal Portfolio Website">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <div class="masthead">
+        <div class="masthead__inner-wrap">
+            <div class="masthead__menu">
+                <a class="site-title" href="/">John Doe</a>
+                <ul class="visible-links">
+                    <li><a href="#about" class="active">About Me</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="initial-content">
+        <div id="main" role="main">
+            
+            <div class="sidebar sticky">
+                <div itemscope itemtype="https://schema.org/Person">
+                    <div class="author__avatar">
+                        <img src="https://via.placeholder.com/150" alt="John Doe" itemprop="image">
+                    </div>
+                    <div class="author__content">
+                        <h3 class="author__name" itemprop="name">John Doe</h3>
+                        <p class="author__bio" itemprop="description">Software Engineer & Designer</p>
+                    </div>
+                    <div class="author__urls-wrapper">
+                        <ul class="author__urls social-icons">
+                            <li><i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> San Francisco, CA</li>
+                            <li><a href="#"><i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i> Email</a></li>
+                            <li><a href="#"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+                            <li><a href="#"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i> LinkedIn</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+                <div class="page__inner-wrap">
+                    
+                    <section id="about" class="page__content" itemprop="text">
+                        <header>
+                            <h1 id="page-title" class="page__title" itemprop="headline">About Me</h1>
+                        </header>
+                        <p>Hello! I'm a passionate software engineer focused on creating simple, highly functional applications. I enjoy bridging the gap between engineering and clean design.</p>
+                        <p>When I'm not in front of a computer screen, I'm probably exploring the outdoors, trying out a new coffee shop, or reading a good book.</p>
+
+                        <h2 id="technical-interests">Technical Interests</h2>
+                        <ul>
+                            <li>Web Development</li>
+                            <li>Machine Learning</li>
+                            <li>UI/UX Design</li>
+                            <li>Problem Solving</li>
+                            <li>Cloud Architecture</li>
+                        </ul>
+                    </section>
+
+                    <section id="projects" class="page__content">
+                        <h2 id="featured-projects">Featured Projects</h2>
+                        <div class="project-list">
+                            <div class="project-item">
+                                <h3><a href="#">Vehicle Routing Engine</a></h3>
+                                <p>A highly optimized multithreaded routing engine built in C++ to solve complex vehicle routing problems efficiently.</p>
+                            </div>
+                            <div class="project-item">
+                                <h3><a href="#">Algorithmic Trading Platform</a></h3>
+                                <p>A quantitative framework for backtesting and deploying intraday trading strategies using historical data.</p>
+                            </div>
+                            <div class="project-item">
+                                <h3><a href="#">Portfolio Theme</a></h3>
+                                <p>A sleek, minimal theme designed for developers focusing on clean typography and readability.</p>
+                            </div>
+                        </div>
+                    </section>
+
+                </div>
+            </article>
+
+        </div>
+    </div>
+
+    <div class="page__footer">
+        <footer>
+            <div class="page__footer-copyright">&copy; 2026 John Doe.</div>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
