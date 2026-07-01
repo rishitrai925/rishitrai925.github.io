@@ -1,0 +1,42 @@
+
+> portfolio@0.0.0 build
+> vite build
+
+[36mvite v8.0.16 [32mbuilding client environment for production...[36m[39m
+[2Ktransforming...Error: Cannot apply unknown utility class `bg-zinc-950`. Are you using CSS modules or similar and missing `@reference`? https://tailwindcss.com/docs/functions-and-directives#reference-directive
+    at onInvalidCandidate (D:\projects\portfolio\node_modules\tailwindcss\dist\lib.js:21:1677)
+    at Re (D:\projects\portfolio\node_modules\tailwindcss\dist\lib.js:16:39426)
+    at D:\projects\portfolio\node_modules\tailwindcss\dist\lib.js:21:711
+    at jr (D:\projects\portfolio\node_modules\tailwindcss\dist\lib.js:3:1775)
+    at I (D:\projects\portfolio\node_modules\tailwindcss\dist\lib.js:3:1377)
+    at Ee (D:\projects\portfolio\node_modules\tailwindcss\dist\lib.js:21:172)
+    at Cn (D:\projects\portfolio\node_modules\tailwindcss\dist\lib.js:38:294)
+    at async Sn (D:\projects\portfolio\node_modules\tailwindcss\dist\lib.js:38:631)
+    at async ln (D:\projects\portfolio\node_modules\@tailwindcss\node\dist\index.js:10:3415)
+    at async E (D:\projects\portfolio\node_modules\@tailwindcss\postcss\dist\index.js:10:3984)
+✓ 2147 modules transformed.
+[31m✗[39m Build failed in 923ms
+[31merror during build:
+[31mBuild failed with 1 error:
+
+[plugin vite:css] D:/projects/portfolio/src/index.css:1:0
+CssSyntaxError: [postcss] tailwindcss: D:/projects/portfolio/src/index.css:1:1: Cannot apply unknown utility class `bg-zinc-950`. Are you using CSS modules or similar and missing `@reference`? https://tailwindcss.com/docs/functions-and-directives#reference-directive
+    at Input.error (D:\projects\portfolio\node_modules\postcss\lib\input.js:135:16)
+    at Root.error (D:\projects\portfolio\node_modules\postcss\lib\node.js:146:32)
+    at Object.Once (D:\projects\portfolio\node_modules\@tailwindcss\postcss\dist\index.js:10:6918)
+    at async LazyResult.runAsync (D:\projects\portfolio\node_modules\postcss\lib\lazy-result.js:293:11)
+    at async runPostCSS (file:///D:/projects/portfolio/node_modules/vite/dist/node/chunks/node.js:21166:19)
+    at async compilePostCSS (file:///D:/projects/portfolio/node_modules/vite/dist/node/chunks/node.js:21150:6)
+    at async compileCSS (file:///D:/projects/portfolio/node_modules/vite/dist/node/chunks/node.js:21080:26)
+    at async TransformPluginContextImpl.handler (file:///D:/projects/portfolio/node_modules/vite/dist/node/chunks/node.js:20588:47)
+    at async plugin (file:///D:/projects/portfolio/node_modules/rolldown/dist/shared/bindingify-input-options-ClrST5Xx.mjs:1185:16)
+    at async plugin.<computed> (file:///D:/projects/portfolio/node_modules/rolldown/dist/shared/bindingify-input-options-ClrST5Xx.mjs:1625:12)[31m
+    at aggregateBindingErrorsIntoJsError (file:///D:/projects/portfolio/node_modules/rolldown/dist/shared/error-BuvQYXuZ.mjs:48:18)
+    at unwrapBindingResult (file:///D:/projects/portfolio/node_modules/rolldown/dist/shared/error-BuvQYXuZ.mjs:18:128)
+    at #build (file:///D:/projects/portfolio/node_modules/rolldown/dist/shared/rolldown-build-CrPk_lZe.mjs:3246:34)
+    at async buildEnvironment (file:///D:/projects/portfolio/node_modules/vite/dist/node/chunks/node.js:33253:64)
+    at async Object.build (file:///D:/projects/portfolio/node_modules/vite/dist/node/chunks/node.js:33675:19)
+    at async Object.buildApp (file:///D:/projects/portfolio/node_modules/vite/dist/node/chunks/node.js:33672:153)
+    at async CAC.<anonymous> (file:///D:/projects/portfolio/node_modules/vite/dist/node/cli.js:777:3) {
+  errors: [Getter/Setter]
+}[39m
