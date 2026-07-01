@@ -22,7 +22,7 @@ export default function Education() {
     },
     {
       title: "Codeforces",
-      value: "1526",
+      value: "1548",
       sub: "Specialist",
       highlight: true
     },
@@ -34,7 +34,7 @@ export default function Education() {
     },
     {
       title: "AtCoder",
-      value: "864",
+      value: "932",
       sub: "6 Kyu",
       highlight: false
     }

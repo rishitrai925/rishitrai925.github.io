@@ -46,9 +46,9 @@ export default function Hero() {
       <motion.div variants={itemVariants} className="flex items-center gap-6 mt-8">
         {[
           { icon: FiGithub, href: "https://github.com/rishitrai925", label: "GitHub" },
-          { icon: FiLinkedin, href: "https://linkedin.com/in/rishit-rai", label: "LinkedIn" },
-          { icon: Code2, href: "https://codeforces.com/profile/rishit_rai", label: "Codeforces" },
-          { icon: TerminalSquare, href: "https://atcoder.jp/users/rishit_rai", label: "AtCoder" },
+          { icon: FiLinkedin, href: "https://linkedin.com/in/rishit-rai-", label: "LinkedIn" },
+          { icon: Code2, href: "https://codeforces.com/profile/rishitrai", label: "Codeforces" },
+          { icon: TerminalSquare, href: "https://atcoder.jp/users/rishitrai", label: "AtCoder" },
         ].map((link, index) => (
           <a
             key={index}
