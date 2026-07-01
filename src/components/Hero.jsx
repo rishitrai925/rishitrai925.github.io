@@ -72,7 +72,7 @@ export default function Hero() {
           <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
         </a>
         <a 
-          href="mailto:rishitrai925@gmail.com"
+          href="mailto:rishitkumarrai@gmail.com"
           className="flex items-center gap-2 border border-zinc-800 text-zinc-300 px-6 py-3 font-medium hover:bg-zinc-900 transition-colors"
         >
           Contact Me
